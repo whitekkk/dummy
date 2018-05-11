@@ -14,6 +14,6 @@ app.post('/hey', function (req, res) {
   console.log(req.body)
 })
 
-app.listen(3001, function () {
+app.listen(80, function () {
   console.log('Example app listening on port 3001!')
 })

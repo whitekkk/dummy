@@ -6,7 +6,6 @@
       <input type="text" v-model="pass"><br>
     </div>
     <div id="rcorners2" @click="set"></div>
-    <button @click="set()">xx</button>
   </div>
 </template>
 
@@ -21,7 +20,7 @@ export default {
   name: 'App',
   data () {
     return {
-      hosts: 'http://localhost:3001',
+      hosts: 'http://10.4.15.235',
       user: '',
       pass: '',
       count: 0,
